@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const helmet = require("helmet");
-const authController = require("./controllers/authController");
+const authController = require("./src/controllers/authController");
 
 dotenv.config();
 const app = express();
